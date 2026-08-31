@@ -15,10 +15,6 @@ it should look like
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/17e6a58d45accc34902058d96eb40a78a1c5e27a/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20142749.png)
 For the error section, add: return 0, 0
 
-It should look like this
-
-![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/3f09e884b007cfabeb4ac545dda626aaf8d68b56/Screenshot%202026-08-31%20173817.png)
-
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/de49585462328977731c1448520e84cad05bbfef/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20143226.png)
 At the end of the successful part of investigate_ip_abuseipdb(), add: return data.get("abuseConfidenceScore", 0)
 
