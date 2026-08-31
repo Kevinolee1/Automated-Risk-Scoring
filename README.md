@@ -35,7 +35,7 @@ Like this
     print(response.text)
 
     return 0, 0
-
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/de49585462328977731c1448520e84cad05bbfef/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20143226.png)
 At the end of the successful part of investigate_ip_abuseipdb(), add: return data.get("abuseConfidenceScore", 0)
 
 print(f"ISP: {data.get('isp', 'Unknown')}")
