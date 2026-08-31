@@ -2,7 +2,7 @@
 automatically assign LOW, MEDIUM, HIGH, or CRITICAL based on threat-intelligence results
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/f935674335877e8f18aa2a7873f1dd1f3e10687e/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20140751.png)
 Add this function above the section where you ask for the IOC:
-![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/1b1b67ead50448568ee2e264f68d63dff8fb7233/Screenshot%202026-08-31%20173726.png)
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/de299448c5230e0a87535afe584119dc787a6311/Screenshot%202026-08-31%20181028.png)
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/e5d25490517652408c47eeabe91e8a939289c5f4/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20142117.png)
 At the end of the successful section of investigate_ip(), add:
 
