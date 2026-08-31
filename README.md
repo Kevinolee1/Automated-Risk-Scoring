@@ -1,5 +1,6 @@
 # Automated-Risk-Scoring
-Automatically assign LOW, MEDIUM, HIGH, or CRITICAL based on threat-intelligence results
+Built a Python-based automated risk-scoring tool that correlates VirusTotal and AbuseIPDB threat-intelligence results to classify IP addresses as LOW, MEDIUM, HIGH, or CRITICAL based on project-defined risk thresholds.
+**Note:** The risk thresholds used in this project are custom scoring criteria created for this lab and are not official VirusTotal, AbuseIPDB, or industry-standard severity ratings.
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/f935674335877e8f18aa2a7873f1dd1f3e10687e/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20140751.png)
 Add this function above the section where you ask for the IOC:
 
@@ -14,7 +15,7 @@ it should look like
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/c0f3a32494c48574d6e7132e1efcb9b0f1b60de8/Screenshot%202026-08-31%20173751.png)
 
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/17e6a58d45accc34902058d96eb40a78a1c5e27a/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20142749.png)
-For the error section, add: return 0, 0
+For the error section, add: return 0
 
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/de49585462328977731c1448520e84cad05bbfef/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20143226.png)
 At the end of the successful part of investigate_ip_abuseipdb(), 
@@ -67,7 +68,10 @@ Usage Type: Content Delivery Network
 
 SOC Risk Assessment
 -------------------
-Risk Level: LOW
+Risk Level: UNKNOWN
+
+Reason: Threat intelligence lookup incomplete.
+
 
 For this lab, we're defining:
 
