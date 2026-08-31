@@ -35,6 +35,7 @@ Replace it with:
 
 Press Ctrl+S to save 
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/670cac35a7de726564b9cdf39a6e6e4ee852cbcd/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20144926.png)
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/df2b81aa293ec1529b5d88e60229c21758c8289c/Screenshot%202026-08-31%20182302.png)
 Go back to PowerShell to type python main.py and press enter.  For enter IOC to investigate use 8.8.8.8
 You should get 
 
