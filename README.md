@@ -68,12 +68,9 @@ elif ioc_type == "IP Address":
     print(f"Risk Level: {risk_level}")
 
 Press Ctrl+S to save 
-
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/670cac35a7de726564b9cdf39a6e6e4ee852cbcd/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20144926.png)
 Go back to PowerShell to type python main.py and press enter.  For enter IOC to investigate use 8.8.8.8
 You should get 
-
-(.venv) PS C:\Users\eelve\SOC-IOC-Investigation-Automation> python main.py
-Enter IOC to investigate: 8.8.8.8
 
 SOC IOC Investigation Tool
 --------------------------
