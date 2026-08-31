@@ -68,9 +68,8 @@ Usage Type: Content Delivery Network
 
 SOC Risk Assessment
 -------------------
-Risk Level: UNKNOWN
+Risk Level: Low
 
-Reason: Threat intelligence lookup incomplete.
 
 
 For this lab, we're defining:
