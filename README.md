@@ -2,18 +2,7 @@
 automatically assign LOW, MEDIUM, HIGH, or CRITICAL based on threat-intelligence results
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/f935674335877e8f18aa2a7873f1dd1f3e10687e/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20140751.png)
 Add this function above the section where you ask for the IOC:
-def calculate_risk(vt_malicious, vt_suspicious, abuse_score):
-    if vt_malicious >= 10 or abuse_score >= 90:
-        return "CRITICAL"
-
-    elif vt_malicious >= 5 or abuse_score >= 70:
-        return "HIGH"
-
-    elif vt_malicious >= 1 or vt_suspicious >= 1 or abuse_score >= 25:
-        return "MEDIUM"
-
-    else:
-        return "LOW"
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/1b1b67ead50448568ee2e264f68d63dff8fb7233/Screenshot%202026-08-31%20173726.png)
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/e5d25490517652408c47eeabe91e8a939289c5f4/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20142117.png)
 At the end of the successful section of investigate_ip(), add:
 return stats.get("malicious", 0), stats.get("suspicious", 0)
