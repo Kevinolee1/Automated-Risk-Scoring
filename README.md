@@ -44,7 +44,7 @@ print(f"Usage Type: {data.get('usageType', 'Unknown')}")
 
 So it looks like:
 return data.get("abuseConfidenceScore", 0)
-
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/fa948d70ae43bbfa94661ce55d8f067a2a547987/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20143852.png)
 Find:
 elif ioc_type == "IP Address":
     investigate_ip(ioc)
