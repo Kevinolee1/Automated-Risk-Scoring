@@ -29,21 +29,7 @@ Find:
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/a55ce50c264ce672067b12ecdcaeb6a727adceb4/Screenshot%202026-08-31%20173846.png)
 
 Replace it with:
-elif ioc_type == "IP Address":
-    vt_malicious, vt_suspicious = investigate_ip(ioc)
-
-    abuse_score = investigate_ip_abuseipdb(ioc)
-
-    risk_level = calculate_risk(
-        vt_malicious,
-        vt_suspicious,
-        abuse_score
-    )
-
-    print()
-    print("SOC Risk Assessment")
-    print("-------------------")
-    print(f"Risk Level: {risk_level}")
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/7b40db1b85ff61f453e00dbe9a2f40785608256e/Screenshot%202026-08-31%20174146.png)
 
 Press Ctrl+S to save 
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/670cac35a7de726564b9cdf39a6e6e4ee852cbcd/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20144926.png)
