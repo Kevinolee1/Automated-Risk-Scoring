@@ -25,8 +25,8 @@ print(f"ASN: {attributes.get('asn', 'Unknown')}")
 print(f"Owner: {attributes.get('as_owner', 'Unknown')}")
 
 return stats.get("malicious", 0), stats.get("suspicious", 0)
-
- For the error section, add: return 0, 0
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/17e6a58d45accc34902058d96eb40a78a1c5e27a/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20142749.png)
+For the error section, add: return 0, 0
 
 Like this
  else:
