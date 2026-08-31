@@ -26,9 +26,7 @@ So it looks like:
 return data.get("abuseConfidenceScore", 0)
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/fa948d70ae43bbfa94661ce55d8f067a2a547987/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20143852.png)
 Find:
-elif ioc_type == "IP Address":
-    investigate_ip(ioc)
-    investigate_ip_abuseipdb(ioc)
+![Image alt]()
 
 Replace it with:
 elif ioc_type == "IP Address":
