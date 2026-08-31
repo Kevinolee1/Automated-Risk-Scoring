@@ -5,13 +5,11 @@ Add this function above the section where you ask for the IOC:
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/1b1b67ead50448568ee2e264f68d63dff8fb7233/Screenshot%202026-08-31%20173726.png)
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/e5d25490517652408c47eeabe91e8a939289c5f4/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20142117.png)
 At the end of the successful section of investigate_ip(), add:
+
 return stats.get("malicious", 0), stats.get("suspicious", 0)
 
 it should look like
-print(f"Country: {attributes.get('country', 'Unknown')}")
-print(f"Network: {attributes.get('network', 'Unknown')}")
-print(f"ASN: {attributes.get('asn', 'Unknown')}")
-print(f"Owner: {attributes.get('as_owner', 'Unknown')}")
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/c0f3a32494c48574d6e7132e1efcb9b0f1b60de8/Screenshot%202026-08-31%20173751.png)
 
 return stats.get("malicious", 0), stats.get("suspicious", 0)
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/17e6a58d45accc34902058d96eb40a78a1c5e27a/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20142749.png)
