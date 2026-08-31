@@ -14,10 +14,11 @@ def calculate_risk(vt_malicious, vt_suspicious, abuse_score):
 
     else:
         return "LOW"
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/e5d25490517652408c47eeabe91e8a939289c5f4/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20142117.png)
+At the end of the successful section of investigate_ip(), add:
+return stats.get("malicious", 0), stats.get("suspicious", 0)
 
-        At the end of the successful section of investigate_ip(), add:
-        return stats.get("malicious", 0), stats.get("suspicious", 0)
-
+it should look like
 print(f"Country: {attributes.get('country', 'Unknown')}")
 print(f"Network: {attributes.get('network', 'Unknown')}")
 print(f"ASN: {attributes.get('asn', 'Unknown')}")
