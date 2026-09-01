@@ -69,14 +69,18 @@ Usage Type: Content Delivery Network
 
 SOC Risk Assessment
 -------------------
-Risk Level: Low
+Risk Level: UNKNOWN
 
+Reason: Insufficient threat-intelligence data to calculate risk.
 
 
 For this lab, we're defining:
 
 Risk	Logic
 LOW	0 malicious, 0 suspicious, AbuseIPDB below 25%
+
 MEDIUM	1+ VT malicious/suspicious or AbuseIPDB ≥25%
+
 HIGH	5+ VT malicious or AbuseIPDB ≥70%
+
 CRITICAL	10+ VT malicious or AbuseIPDB ≥90%
