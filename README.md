@@ -85,6 +85,8 @@ Directly under the function, add:
 
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/56004bc8307cfc5589d92b7e96321b1c56ba6ea7/Screenshot%202026-08-31%20210323.png)
 
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/1d9c64daa6e888f212f0dcb5fec74a05277e6c3c/Screenshot%202026-08-31%20212113.png)
+
 In PowerShell run: python main.py
 
 You should see:
