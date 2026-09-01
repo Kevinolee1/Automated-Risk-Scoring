@@ -33,6 +33,7 @@ Find:
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/a55ce50c264ce672067b12ecdcaeb6a727adceb4/Screenshot%202026-08-31%20173846.png)
 
 Replace it with:
+
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/7b40db1b85ff61f453e00dbe9a2f40785608256e/Screenshot%202026-08-31%20174146.png)
 
 Press Ctrl+S to save 
