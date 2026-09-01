@@ -79,6 +79,7 @@ Open main.py in VS Code
 Look for
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/be74049d0ad9e4165131079105bffdc8607f88fc/Screenshot%202026-08-31%20210156.png)
 
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/f8fe7a017cdc8c8d00840e45b4b61972a3aec1fd/Screenshot%202026-08-31%20211019.png)
 
 Directly under the function, add:
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/56004bc8307cfc5589d92b7e96321b1c56ba6ea7/Screenshot%202026-08-31%20210323.png)
