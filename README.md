@@ -27,7 +27,9 @@ So it looks like:
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/e56b05f70e859e15bf2f880ec9c82de8984db623/Screenshot%202026-08-31%20180423.png)
 
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/fa948d70ae43bbfa94661ce55d8f067a2a547987/Automated%20Risk%20Scoring/Screenshot%202026-08-31%20143852.png)
+
 Find:
+
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/a55ce50c264ce672067b12ecdcaeb6a727adceb4/Screenshot%202026-08-31%20173846.png)
 
 Replace it with:
