@@ -84,3 +84,5 @@ MEDIUM	1+ VT malicious/suspicious or AbuseIPDB ≥25%
 HIGH	5+ VT malicious or AbuseIPDB ≥70%
 
 CRITICAL	10+ VT malicious or AbuseIPDB ≥90%
+
+Skills Demonstrated: Python | SOC Automation | Risk Assessment | Threat Intelligence | VirusTotal API | AbuseIPDB API | IOC Analysis | Data Correlation | Decision Logic | REST APIs |
