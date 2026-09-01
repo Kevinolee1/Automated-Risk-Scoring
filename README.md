@@ -81,7 +81,7 @@ Look for
 
 
 Directly under the function, add:
-
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/56004bc8307cfc5589d92b7e96321b1c56ba6ea7/Screenshot%202026-08-31%20210323.png)
 
 For this lab, we're defining:
 
