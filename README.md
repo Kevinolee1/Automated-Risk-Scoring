@@ -73,6 +73,8 @@ Risk Level: UNKNOWN
 
 Reason: Insufficient threat-intelligence data to calculate risk.
 
+![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/535d48ce71a9555758b081978c1a42a0a83598a8/Screenshot%202026-08-31%20210650.png)
+
 Open main.py in VS Code
 Look for
 ![Image alt](https://github.com/Kevinolee1/Automated-Risk-Scoring/blob/be74049d0ad9e4165131079105bffdc8607f88fc/Screenshot%202026-08-31%20210156.png)
