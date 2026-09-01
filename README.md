@@ -73,6 +73,8 @@ Risk Level: UNKNOWN
 
 Reason: Insufficient threat-intelligence data to calculate risk.
 
+Open main.py in VS Code
+
 
 For this lab, we're defining:
 
